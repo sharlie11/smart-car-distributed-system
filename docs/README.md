@@ -1,36 +1,10 @@
-Raspberry Pi and ESP32 Based Distributed Smart Car
-Introduction
+# Documentation
 
-This project focuses on designing and implementing a distributed smart robotic car by integrating Raspberry Pi, ESP32, and Arduino UNO. Each controller is assigned a specific role to ensure modularity, stability, and easier debugging.
+This folder contains system-level documentation, wiring references, and real hardware setup images.
 
-The system combines computer vision, wireless communication, and real-time motor control to simulate a real-world autonomous robotic platform.
+## Contents
+- `system_architecture.png` – Logical separation of Raspberry Pi, ESP32, and Arduino layers  
+- `wiring_diagram.png` – Power and signal wiring reference  
+- `real_setup.jpg` – Actual hardware setup used during testing  
 
-Why Multiple Controllers?
-
-Raspberry Pi handles vision and decision logic
-
-ESP32 manages Wi-Fi communication and signal strength
-
-Arduino ensures reliable real-time motor and sensor control
-
-This separation prevents overloading a single controller and reflects real embedded system design practices.
-
-System Architecture
-
-📌 Architecture diagrams and wiring images are available in the docs/ folder.
-
-Features
-
-Motion detection using Raspberry Pi camera
-
-Face recognition using live video feed
-
-Obstacle avoidance using ultrasonic sensors
-
-Wi-Fi-based command relay via ESP32
-
-Modular and scalable system design
-
-Project Status
-
-The system successfully demonstrates modular integration and real-world embedded system challenges. Full autonomous navigation using wireless commands is under refinement.
+Real images are intentionally included to reflect hands-on development and debugging.
